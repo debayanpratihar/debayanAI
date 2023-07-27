@@ -94,7 +94,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."   (Turn on the loader)
     loader(messageDiv)
 //Fetch the data from the server -> bot's responce
-    const response = await fetch('https://debayan-pratihar.onrender.com', {
+    const response = await fetch('http://localhost:5000', {
         method: 'POST',        //Object containing all of the objects
         headers: {
             'Content-Type': 'application/json',
